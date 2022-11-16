@@ -13,9 +13,9 @@ const Herosection = () => {
         ease: [0, 0.71, 0.2, 1.01]
       }}
     >
-        <Box height={"100vh"} display={'flex'} justifyContent={"center"} alignItems={"center"} flexDirection={'column'}>
+        <Box height={"100vh"} display={'flex'} justifyContent={"center"} alignItems={"center"} flexDirection={'column'} textAlign={'center'}>
                 <Typography variant="h2">Hi </Typography>
-                <Typography color={'#64dd17'} variant="h2">its Bakar </Typography>
+                <Typography color={'#64dd17'} variant="h2">its Bakar</Typography>
                 <motion.div 
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
@@ -24,7 +24,7 @@ const Herosection = () => {
                     delay: 1.5,
                     ease: [0, 0.71, 0.2, 1.01]
                   }}>
-                    <Typography variant="h2">I am Developer</Typography></motion.div>
+                    <Typography variant="h2">I am a Developer</Typography></motion.div>
         </Box>
     </motion.div>
   )
